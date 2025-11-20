@@ -9,5 +9,17 @@ examples{
 }
 
 .examples-image1{
-	
+	margin-left:auto;
+}
+
+.examples-image2{
+	margin-right:auto;
+}
+
+.examples-image3{
+	margin-left:auto;
+}
+
+.examples-image4{
+	margin-right:auto;
 }
