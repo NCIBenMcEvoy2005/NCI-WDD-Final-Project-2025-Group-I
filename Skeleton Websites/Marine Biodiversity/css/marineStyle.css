@@ -1,8 +1,13 @@
-body{
-	background-color:green;
-}
-
 header{
 	text-align:center;
-	size:7px;
+	font-size:14px;
+}
+
+examples{
+	text-align:left;
+	font-size:14px;
+}
+
+.examples-image1{
+	
 }
