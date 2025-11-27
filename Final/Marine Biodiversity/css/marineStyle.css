@@ -1,3 +1,4 @@
+/*Fonts from Google Fonts*/
 .fascinate-inline-regular {
   font-family: "Fascinate Inline", system-ui;
   font-weight: 400;
@@ -9,16 +10,30 @@
   font-weight: 400;
   font-style: normal;
 }
-
-body{
-	background-color:teal;
+/*Background Image*/
+.backGroundImage{
+	background-image:url("../images/oceanBackground.jpg");
 }
-
+/*Navbar Assests and Colouring*/
 .logoImage{
 	width:5%;
 	margin-right:5px;
 }
 
+.navbar{
+	background-color:#0F0B56;
+}
+
+.container-fluid{
+	background-color:#5852CE;
+}
+
+.navbar navbar-expand-lg bg-body-tertiary{
+	background-color:#5852CE;
+}
+.collapse navbar-collapse{
+	
+}
 .title{
 	font-family: "Fascinate Inline", system-ui;
 	text-align:center;
@@ -29,9 +44,20 @@ body{
 }
 .centeralArea{
 	display:block;
+	text-align:center;
+	width:50%;
+}
+
+.image-of-marine-biodiversity{
+	display:block;
 	margin-left:auto;
 	margin-right:auto;
-	width:50%;
+	width:40%;
+}
+
+.dropboxes{
+	display:block;
+	margin-left:50%;
 }
 
 examples-p1{
@@ -76,4 +102,8 @@ examples-p4{
 	display:block;
 	margin-right:auto;
 	width:50%;
+}
+
+.footer{
+	text-align:center;
 }
