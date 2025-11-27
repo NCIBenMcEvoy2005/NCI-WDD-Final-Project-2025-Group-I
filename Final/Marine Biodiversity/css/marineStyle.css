@@ -10,9 +10,13 @@
   font-weight: 400;
   font-style: normal;
 }
-/*Background Image*/
+/*Background Image and colour*/
 .backGroundImage{
 	background-image:url("../images/oceanBackground.jpg");
+}
+
+body{
+	background-color:#5852CE;
 }
 /*Navbar Assests and Colouring*/
 .logoImage{
@@ -32,8 +36,10 @@
 	background-color:#5852CE;
 }
 .collapse navbar-collapse{
-	
+	background-color:#5852CE;
 }
+
+/*Text sizing and styling*/
 .title{
 	font-family: "Fascinate Inline", system-ui;
 	text-align:center;
@@ -42,66 +48,64 @@
 .paragraph{
 	font-family: "Story Script", sans-serif;
 }
-.centeralArea{
-	display:block;
-	text-align:center;
-	width:50%;
+
 }
 
 .image-of-marine-biodiversity{
 	display:block;
 	margin-left:auto;
-	margin-right:auto;
-	width:40%;
 }
 
 .dropboxes{
-	display:block;
-	margin-left:50%;
+	text-align:center;
 }
 
+/*Lower paragraphs and images*/
 examples-p1{
-	text-align:left;
+	display:inline;
 	font-size:14px;
 }
 
 examples-p2{
-	text-align:right;
+	display:inline;
 	font-size:14px;
 }
 
 examples-p3{
-	text-align:left;
+	display:inline;
 	font-size:14px;
 }
 
 examples-p4{
-	text-align:right;
+	display:inline;
 	font-size:14px;
 }
 
 .examples-image1{
+	size:123px;
 	display:block;
-	margin-left:auto;
-	width:50%;
+	float:left;
+	margin-right:10px;
+	margin-top:10px;
+	margin-bottom:10px;
 }
 
 .examples-image2{
+	size:123px;
 	display:block;
-	margin-right:auto;
-	width:50%;
+	float:right;
+	margin-right:10px;
+	margin-top:10px;
+	margin-bottom:10px;
 }
 
 .examples-image3{
+	width:234px;
 	display:block;
-	margin-left:auto;
-	width:50%;
-}
-
-.examples-image4{
-	display:block;
-	margin-right:auto;
-	width:50%;
+	float:left;
+	margin-right:10px;
+	margin-top:10px;
+	margin-bottom:10px;
 }
 
 .footer{
