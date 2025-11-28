@@ -52,15 +52,15 @@ body{
 }
 
 .image-of-marine-biodiversity{
-	display:block;
-	margin-left:auto;
+	object-fit: none;
+	object-postition:50px 50px;
 }
 
 .dropboxes{
 	text-align:center;
 }
 
-/*Lower paragraphs and images*/
+/*Lower paragraphs*/
 examples-p1{
 	display:inline;
 	font-size:14px;
@@ -81,6 +81,7 @@ examples-p4{
 	font-size:14px;
 }
 
+/*Lower Images*/
 .examples-image1{
 	size:123px;
 	display:block;
@@ -100,7 +101,7 @@ examples-p4{
 }
 
 .examples-image3{
-	width:234px;
+	width:123px;
 	display:block;
 	float:left;
 	margin-right:10px;
