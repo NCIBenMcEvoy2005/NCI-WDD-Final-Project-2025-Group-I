@@ -49,17 +49,6 @@ body{
 	font-family: "Story Script", sans-serif;
 }
 
-}
-
-.image-of-marine-biodiversity{
-	object-fit: none;
-	object-postition:50px 50px;
-}
-
-.dropboxes{
-	text-align:center;
-}
-
 /*Lower paragraphs*/
 examples-p1{
 	display:inline;
