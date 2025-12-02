@@ -11,8 +11,8 @@
   font-style: normal;
 }
 /*Background Image*/
-.backGroundImage{
-	background-image:url("finalRedoneFolderStructure\globalInitiatives\images\oceanBackground.jpg");
+.bg{
+	background-image: url("image/oceanBackground.jpg");
 }
 /*Navbar Assests and Colouring*/
 .logoImage{
@@ -24,15 +24,16 @@
 	background-color:#0F0B56;
 }
 
-.container-fluid{
-	background-color:#5852CE;
+.gallery{
+	align:right;
 }
 
-.navbar navbar-expand-lg bg-body-tertiary{
-	background-color:#5852CE;
+.caroimg{
+	width:43%;
 }
-.collapse navbar-collapse{
-	background-color:#5852CE;
+
+.card card-body{
+	color:black;
 }
 
 /*Text sizing and styling*/
@@ -43,5 +44,6 @@
 }
 .paragraph{
 	font-family: "Story Script", sans-serif;
+	text-align:center;
 	font-size:18px;
 }
