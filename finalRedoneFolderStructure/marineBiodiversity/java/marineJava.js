@@ -8,6 +8,6 @@ function check(answer){
 	}else if (answer == nay){
 		alert("Java inActive");
 	}else{
-		alert("ERROR! Dumbass cant follow simple instructions")
+		alert("ERROR!")
 	}
 }
