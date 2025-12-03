@@ -1,15 +1,16 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<!--Page Done By Ben McEvoy (25331971)-->
-<title>Life Under The Sea - Marine Biodiversity</title>
-<meta name="viewport" content="width=device-width, initial-scale=1"> <!--RWD for people who use phones or tablets-->
-<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous"> <!--Bootstrap stuff to allow the more fancy bits'n'bobs to be put into the website-->
-<link rel="stylesheet" href="css/marineStyle.css"> 
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script> <!--Bootstrap stuff to allow the more fancy bits'n'bobs to be put into the website-->
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@400;700;900&family=Fascinate+Inline&family=Monoton&family=Oswald:wght@200..700&family=Playwrite+ES+Deco+Guides&family=Quintessential&family=Roboto+Slab:wght@100..900&family=Story+Script&display=swap" rel="stylesheet">
+	<!--Page Done By Ben McEvoy (25331971)-->
+	<title>Life Under The Sea - Marine Biodiversity</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1"> <!--RWD for people who use phones or tablets-->
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous"> <!--Bootstrap stuff to allow the more fancy bits'n'bobs to be put into the website-->
+	<link rel="stylesheet" href="css/marineStyle.css"> <!--Links the css file to this webpage allowing for it to look smashing-->
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script> <!--Bootstrap stuff to allow the more fancy bits'n'bobs to be put into the website-->
+	<link rel="preconnect" href="https://fonts.googleapis.com"> <!--Links to allow custom fonts from Google Fonts-->
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> <!--Links to allow custom fonts from Google Fonts-->
+	<link href="https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@400;700;900&family=Fascinate+Inline&family=Monoton&family=Oswald:wght@200..700&family=Playwrite+ES+Deco+Guides&family=Quintessential&family=Roboto+Slab:wght@100..900&family=Story+Script&display=swap" rel="stylesheet"> <!--Links to allow custom fonts from Google Fonts-->
+	<script src="java/marineJava.js"></script> <!--Links to my java file containing the quiz code-->
 </head>
 
 <body>
@@ -109,9 +110,23 @@
 		</div>
 		</div>
 		</div>
+		
+		<div class="quiz">
+			<form>
+				<label class="paragraph">Question One</label>
+				<br>
+				<label class="paragraph">This is a test Question! input yay or nay</label>
+				<br>
+				<input type="text" class="answer">
+				<br><br>
+				<button class="paragraph" onclick="check(answer)">Submit Answers</button>
+			</form>
+		</div>
+		
 		<div class="footer">
 			<p class="title">This Page Was Created By Ben Mcevoy</p>
 		</div>
+	
 	</div>
 </body>
 </html>

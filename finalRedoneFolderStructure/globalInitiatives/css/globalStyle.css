@@ -11,8 +11,8 @@
   font-style: normal;
 }
 /*Background Image*/
-.bg{
-	background-image: url("image/oceanBackground.jpg");
+.bg{	
+	background-image:url("../images/oceanBackground.jpg");
 }
 /*Navbar Assests and Colouring*/
 .logoImage{

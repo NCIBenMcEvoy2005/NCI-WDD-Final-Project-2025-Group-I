@@ -49,55 +49,7 @@ body{
 	font-family: "Story Script", sans-serif;
 }
 
-/*Lower paragraphs*/
-examples-p1{
-	display:inline;
-	font-size:14px;
-}
-
-examples-p2{
-	display:inline;
-	font-size:14px;
-}
-
-examples-p3{
-	display:inline;
-	font-size:14px;
-}
-
-examples-p4{
-	display:inline;
-	font-size:14px;
-}
-
-/*Lower Images*/
-.examples-image1{
-	size:123px;
-	display:block;
-	float:left;
-	margin-right:10px;
-	margin-top:10px;
-	margin-bottom:10px;
-}
-
-.examples-image2{
-	size:123px;
-	display:block;
-	float:right;
-	margin-right:10px;
-	margin-top:10px;
-	margin-bottom:10px;
-}
-
-.examples-image3{
-	width:123px;
-	display:block;
-	float:left;
-	margin-right:10px;
-	margin-top:10px;
-	margin-bottom:10px;
-}
-
+/*Styling for Quiz*/
 .footer{
 	text-align:center;
 }
