@@ -49,24 +49,24 @@
 		</nav>
 	</div>
 	
-	<div class="backGroundImage">
-	<div class="header">
+	<div class="backGroundImage"> <!--A divider to help ensure the background image fits well and doesnt collide with the navbar-->
+	<div class="header"> <!--The big title telling users what the topic of the page is-->
 		<h1 class="title">MARINE BIODIVERSITY</h1>
 	</div>
 	
-	<div class="intro">
+	<div class="intro"> <!-- Intro paragraph detailing the topic and setting the stage-->
 		<p class="paragraph">Marine Biodiversity is about the large amount of diverse speicies of fish, crustations, coral and underwater plants found within our oceans. The ocean, being one of the largest parts of the earth, contains 2.2 million unique species of both creatures and plants making up 80% of the earths biodiversity. Like the biodiversity found on the surface, the various fish and plants found below each work a delicate role to maintain the balance of their respective terratory. Many parts of the ocean contain various "hotspots" the are home to rare species that cannot be found anywhere else on the globe. The biodiversity of the ocean gives our oceans the capability to be resiliant and adaptable to our mistakes on the surface and to keep unique varients from going extinct.</p>
 	</div>
 	<br><br><br>
-	<div class="header">
+	<div class="header"> <!--title for the image below it-->
 		<h1 class="title">Illustration of Various Marine Life</h1>
 	</div>
 	
-	<div class="marineImage">
+	<div class="marineImage"> <!--Image displaying various sea creatures and coral reefs-->
 		<img src="images/marineLifeImage.jpg" alt="Diagram of Ocean Lifeforms">
 	</div>
 		
-		<div class="dropbox1">
+		<div class="dropbox1"> <!--Dropbox from bootstrap containing information about fish-->
 			<br>
 			<p class="d-inline-flex gap-1">
 			<a class="btn btn-primary title" data-bs-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample">
@@ -79,8 +79,8 @@
 			</div>
 			</div>
 			
-			<!------------------------------------------------------------>
-		<div class="dropbox2">	
+
+		<div class="dropbox2">	<!--Dropbox from bootstrap containing information about underwater plants-->
 			<p class="d-inline-flex gap-1">
 			<a class="btn btn-primary title" data-bs-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample">
 			Coral and Underwater plants
@@ -90,10 +90,10 @@
 			<div class="card card-body paragraph">
 			Both underwater plants like seaweed and algae along with coral make great contributions to the biodiversity of marine life.<br>Plants help give various species of fish both shelter to hide from prey but also nutrients as many kinds of fish like Achilles Tang and the Atlantic Blue Tang eat algae to survive which ensures their survival and allows the amount of it growing to be maintained.<br>They also help keep reefs in shape as they use root-like limbs called holdfasts to grip onto rocks or coral which helps hold reefs together akin to how trees can hold hills together with their roots.<br>Despite being underwater, some forms of algae can engage in photosythesis through both carbon dioxcide and sunlight if they are close to the surface, which contributes to 30-50% of the total oxygen on earth, making the health of the ocean highly important for surface life.
 			</div>
-			</div>
+		</div>
 			
-			<!------------------------------------------------------------>
-		<div class="dropbox3">	
+
+		<div class="dropbox3">	<!--Dropbox from bootstrap  containing information about crabs-->
 			<p class="d-inline-flex gap-1">
 			<a class="btn btn-primary title" data-bs-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample">
 			Crustations
@@ -111,19 +111,29 @@
 		</div>
 		</div>
 		
-		<div class="quiz">
-			<form>
-				<label class="paragraph">Question One</label>
-				<br>
-				<label class="paragraph">This is a test Question! input yay or nay</label>
-				<br>
-				<input type="text" class="answer">
-				<br><br>
-				<button class="paragraph" onclick="check(answer)">Submit Answers</button>
-			</form>
+		<div class="quiz"> <!--Javascript code allowing users to take an quiz on the information they just learnt-->
+			<button class="paragraph" onclick="quiz(results);">Take Quiz on what you've learnt!</button>
+			<script>
+			let answerOne = 1
+			let answerTwo = 2
+			let answerThree = 3
+			let answerFour = 4
+
+			function quiz(results);{
+				let results = prompt("1 = yay, 2 = nay");
+				
+				if (result == 1){
+					document.writeln("yay")
+				}else if (result == 2){
+					document.writeln("nay")
+				}else{
+					document.writeln("ERROR")
+	}
+}
+			</script>
 		</div>
 		
-		<div class="footer">
+		<div class="footer"> <!--Credits to me-->
 			<p class="title">This Page Was Created By Ben Mcevoy</p>
 		</div>
 	
