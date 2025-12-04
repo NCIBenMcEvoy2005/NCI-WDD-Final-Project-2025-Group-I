@@ -39,6 +39,15 @@ body{
 	background-color:#5852CE;
 }
 
+.marineImage{
+	display:block;
+	margin-left:340px;
+	margin-right:340px;
+}
+.accordian{
+	background-color:#5852CE;
+}
+
 /*Text sizing and styling*/
 .title{
 	font-family: "Fascinate Inline", system-ui;
