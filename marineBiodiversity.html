@@ -172,88 +172,89 @@
 			alert("You've earned "+count+" out of five!") <!--Once complete, the cound is read out via alert-->
 		}
 	</script>
-	
-<h1 class="title">The Marine Quiz!</h1>	
-	<form onsubmit="return false;"> <!--This contains all the questions and inputs needed to complete the quiz-->
-	<label class="paragraph">To answer the questions, Input the number corrosponding to its respective answer. Example = (2 = yes -> type 2)</label> <!--Instructions for users on how to properly answer questions-->
-	<br><br>
-		<label class="paragraph">Question One</label>
-		<br>
-		<label class="paragraph">What Kind of Crab Defends Coral Reefs?</label>
+	<div class="mainQuiz">
+	<h1 class="title">The Marine Quiz!</h1>	
+		<form onsubmit="return false;"> <!--This contains all the questions and inputs needed to complete the quiz-->
+		<label class="paragraph">To answer the questions, Input the number corrosponding to its respective answer. Example = (2 = yes -> type 2)</label> <!--Instructions for users on how to properly answer questions-->
 		<br><br>
-		<label class="paragraph">1 = Coral Lobster</label>
-		<br>
-		<label class="paragraph">2 = Coral gaurd crab</label>
-		<br>
-		<label class="paragraph">3 = Purple tailed scampi</label>
-		<br><br>
-		<input id="UI1" type="text" required></input> <!--The user inputs their answers into these textboxes-->
-		
-		<br><br>
-		
-		<label class="paragraph">Question Two</label>
-		<br>
-		<label class="paragraph">How many species of fish are in the ocean?</label>
-		<br><br>
-		<label class="paragraph">1 = 4.1 million</label>
-		<br>
-		<label class="paragraph">2 = 1.3 million</label>
-		<br>
-		<label class="paragraph">3 = 2.2 million</label>
-		<br><br>
-		<input id="UI2" type="text" required></input> <!--The user inputs their answers into these textboxes-->
-		
-		<br><br>
-		
-		<label class="paragraph">Question Three</label>
-		<br>
-		<label class="paragraph">What is 'Nutrient Cycling?'</label>
-		<br><br>
-		<label class="paragraph">1 = An underwater buffet opens</label>
-		<br>
-		<label class="paragraph">2 = A time when large quantities of food is dispersed across the ocean</label>
-		<br>
-		<label class="paragraph">3 = A process in which nitrogen, phosporus and carbon are recycled and distributed</label>
-		<br><br>
-		<input id="UI3" type="text" required></input> <!--The user inputs their answers into these textboxes-->
-		
-		<br><br>
-		
-		<label class="paragraph">Question Four</label>
-		<br>
-		<label class="paragraph">True or False? Do crabs contribute to nutrient cycling?</label>
-		<br><br>
-		<label class="paragraph">1 = True</label>
-		<br>
-		<label class="paragraph">2 = False</label>
-		<br><br>
-		<input id="UI4" type="text" required></input> <!--The user inputs their answers into these textboxes-->
-		
-		<br><br>
-		
-		<label class="paragraph">Question Five</label>
-		<br>
-		<label class="paragraph">What holds algae down?</label>
-		<br><br>
-		<label class="paragraph">1 = Roots</label>
-		<br>
-		<label class="paragraph">2 = Holdfasts</label>
-		<br>
-		<label class="paragraph">3 = Spikes</label>
-		<br><br>
-		<input id="UI5" type="text" required></input> <!--The user inputs their answers into these textboxes-->
-		
-		<br><br>
-	</form>	
-	<button class="paragraph" onclick="ansCheck()" type="button">Submit Your Answers!</button> <!--Once completed, the user submits their answers which are put through the function stored in the java-->
-				
-	<div>
-		<p id="results1" class="paragraph"></p>
-		<p id="results2" class="paragraph"></p>
-		<p id="results3" class="paragraph"></p> <!--Empty paragraphs used to have the results written into-->
-		<p id="results4" class="paragraph"></p>
-		<p id="results5" class="paragraph"></p>
-	</div>
+			<label class="paragraph">Question One</label>
+			<br>
+			<label class="paragraph">What Kind of Crab Defends Coral Reefs?</label>
+			<br><br>
+			<label class="paragraph">1 = Coral Lobster</label>
+			<br>
+			<label class="paragraph">2 = Coral gaurd crab</label>
+			<br>
+			<label class="paragraph">3 = Purple tailed scampi</label>
+			<br><br>
+			<input id="UI1" type="text" required></input> <!--The user inputs their answers into these textboxes-->
+			
+			<br><br>
+			
+			<label class="paragraph">Question Two</label>
+			<br>
+			<label class="paragraph">How many species of fish are in the ocean?</label>
+			<br><br>
+			<label class="paragraph">1 = 4.1 million</label>
+			<br>
+			<label class="paragraph">2 = 1.3 million</label>
+			<br>
+			<label class="paragraph">3 = 2.2 million</label>
+			<br><br>
+			<input id="UI2" type="text" required></input> <!--The user inputs their answers into these textboxes-->
+			
+			<br><br>
+			
+			<label class="paragraph">Question Three</label>
+			<br>
+			<label class="paragraph">What is 'Nutrient Cycling?'</label>
+			<br><br>
+			<label class="paragraph">1 = An underwater buffet opens</label>
+			<br>
+			<label class="paragraph">2 = A time when large quantities of food is dispersed across the ocean</label>
+			<br>
+			<label class="paragraph">3 = A process in which nitrogen, phosporus and carbon are recycled and distributed</label>
+			<br><br>
+			<input id="UI3" type="text" required></input> <!--The user inputs their answers into these textboxes-->
+			
+			<br><br>
+			
+			<label class="paragraph">Question Four</label>
+			<br>
+			<label class="paragraph">True or False? Do crabs contribute to nutrient cycling?</label>
+			<br><br>
+			<label class="paragraph">1 = True</label>
+			<br>
+			<label class="paragraph">2 = False</label>
+			<br><br>
+			<input id="UI4" type="text" required></input> <!--The user inputs their answers into these textboxes-->
+			
+			<br><br>
+			
+			<label class="paragraph">Question Five</label>
+			<br>
+			<label class="paragraph">What holds algae down?</label>
+			<br><br>
+			<label class="paragraph">1 = Roots</label>
+			<br>
+			<label class="paragraph">2 = Holdfasts</label>
+			<br>
+			<label class="paragraph">3 = Spikes</label>
+			<br><br>
+			<input id="UI5" type="text" required></input> <!--The user inputs their answers into these textboxes-->
+			
+			<br><br>
+		</form>	
+		<button class="paragraph" onclick="ansCheck()" type="button">Submit Your Answers!</button> <!--Once completed, the user submits their answers which are put through the function stored in the java-->
+					
+		<div>
+			<p id="results1" class="paragraph"></p>
+			<p id="results2" class="paragraph"></p>
+			<p id="results3" class="paragraph"></p> <!--Empty paragraphs used to have the results written into-->
+			<p id="results4" class="paragraph"></p>
+			<p id="results5" class="paragraph"></p>
+		</div>
+		</div>
 	</div>
 </body>
 </html>
