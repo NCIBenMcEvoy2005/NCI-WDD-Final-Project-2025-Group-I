@@ -42,7 +42,7 @@ body {
     -moz-osx-font-smoothing: grayscale;
 
     /* Background Image (Global Ocean Image) */
-    background-image: url('../images/waterback.jpg'); 
+    background-image: url("cssimages/threatback.jpg"); 
     background-size: cover;
     background-position: center;
     background-attachment: fixed; /* Fixed background effect */
